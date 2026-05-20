@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/Gary.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">莊昀展</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="#" class="header__link"> Home </a> </li>
+            <li class="header__link-wrapper">
+              <a href="#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#projects" class="header__link"> Projects </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">哈囉，我是莊昀展 Gary Chuang</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            具備機械工程嚴謹邏輯與全端開發實力的跨領域人才。擅長運用 React 打造高質感前端體驗，並具備 C# (.NET) 後端與 PostgreSQL 資料庫的系統整合能力。
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            致力於運用跨領域思維解決複雜軟體難題
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                您好！我是 <strong>莊昀展 Gary</strong>。我是一位具備機械工程嚴謹邏輯與全端開發實力的跨領域開發者。
+              </p>
+              <p class="about__content-details-para">
+                我擅長運用 <strong>React</strong> 與 <strong>Tailwind CSS</strong> 打造具備高美感與動態特效的前端介面，並能獨立建置基於微軟 **C# (.NET Minimal API)** 與雲端 **PostgreSQL (Neon)** 資料庫的穩定後端系統。
+              </p>
+              <p class="about__content-details-para">
+                身為非資訊本科背景學生，我擁有極強的自學熱忱與運用 AI 協作開發的能力，能貫穿痛點分析、產品企劃到技術部署的完整環節。我對 UI/UX 具備高度敏銳度，渴望在微軟快節奏且具挑戰性的環境中，創造實質的產品影響力。
+              </p>
+            </div>
+            <a href="#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Tailwind CSS</div>
+              <div class="skills__skill">C# (.NET)</div>
+              <div class="skills__skill">.NET MAUI</div>
+              <div class="skills__skill">PostgreSQL</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">UI/UX Research</div>
+              <div class="skills__skill">Git / Vercel</div>
+              <div class="skills__skill">3D Modeling</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            以下是我近期從零到一完成的代表性專案，包含了實境解謎全端 Web App、跨平台行動應用，以及產品企劃原型。
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/B11.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">B11 時空迴圈集章網頁</h3>
+              <p class="projects__row-content-desc">
+                為台大機械系百位畢業生打造的實境解謎 Web App，結合流暢的前端效果與穩定連線的雲端後台。
+              </p>
+              <a
+                href="https://www.notion.so/B11-365c775db31a80369b01da7a2b4e32dd?source=copy_link"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/ntu.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Ntu_App 跨平台記帳應用程式</h3>
+              <p class="projects__row-content-desc">
+                一款注重隱私與高效率輸入的跨平台記帳應用程式，實現從收支記錄到帳目分析的財務管理。
+              </p>
+              <a
+                href="https://www.notion.so/Ntu_App-365c775db31a80fc9ae3fb49ef321973?source=copy_link"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/island.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Island Architect 宿舍共居 App</h3>
+              <p class="projects__row-content-desc">
+                針對大學生宿舍共居痛點，透過深度使用者研究與藍海策略，從零到一打造出的共居管理 App 產品企劃原型。
+              </p>
+              <a
+                href="https://www.notion.so/Island-Architect-App-365c775db31a80eca997ebf78cb7304f?source=copy_link"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact Me</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            如果您對我的跨領域開發能力、UI/UX 企劃經驗，或我的任何經歷有興趣，歡迎直接點擊下方按鈕 Email 與我聯繫！
+          </span>
+        </h2>
+        <div class="contact__form-container" style="text-align: center; padding-top: 2rem;">
+            <a href="mailto:j1060132j@gmail.com?subject=莊昀展 Gary - 實習招募聯絡" class="btn btn--med btn--theme dynamicBgClr" style="font-size: 1.8rem;">
+              ✉️ 直接 Email 聯絡 Gary
+            </a>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">莊昀展</h4>
+            <p class="main-footer__short-desc">
+              具備機械工程嚴謹邏輯與全端開發實力的跨領域開發者。
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
